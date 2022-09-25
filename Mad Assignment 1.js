@@ -11,8 +11,8 @@ function STUDENT(name, reg, gpa) {
 
 function Students_info() {
     let s1 = new STUDENT("Muhammad", 23, 1.9);
-    let s2 = new STUDENT("Zubair", 22, 3.5);
-    let s3 = new STUDENT("Sharjeel", 25, 2.9);
+    let s2 = new STUDENT("Asad", 22, 3.5);
+    let s3 = new STUDENT("Ali", 25, 2.9);
     let s4 = new STUDENT("Ahmed", 55, 3.2)
 
     return [s1, s2, s3, s4];
@@ -39,7 +39,7 @@ console.log(filteredStudents);
 
 let name = (YourName) => console.log(YourName);
 
-name("zubair");
+name("Asad");
 
 //// Task 2 :
 
